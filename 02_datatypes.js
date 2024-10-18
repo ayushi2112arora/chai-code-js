@@ -21,7 +21,12 @@ console.log(typeof null); //object
 const guy_name = 'prince & himanshu both are closest friend'
 const guy_age = 45;
  let guy_name1 = 'minu';
+ var bigInt = 2^9;
 console.log(guy_age);
 console.log(guy_name1);
+console.log(typeof guy_age);
+console.log(typeof guy_name);
+console.log(typeof bigInt);
+
 
  
