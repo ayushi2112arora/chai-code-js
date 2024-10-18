@@ -6,7 +6,7 @@
 let name = 'ps'
 let age = 54
 let islogicIn = false 
-
+console.table([name,age,islogicIn]);
 //number =>2 to power 54
 // bigInt
 // string => ""
@@ -18,3 +18,10 @@ let islogicIn = false
 console.log(typeof undefined); //undefined aayega
 console.log(typeof null); //object
 
+const guy_name = 'prince & himanshu both are closest friend'
+const guy_age = 45;
+ let guy_name1 = 'minu';
+console.log(guy_age);
+console.log(guy_name1);
+
+ 
