@@ -71,8 +71,30 @@ const BigNumber = 456777777777779713566789134n
 //symbol=symbol
 //bigint=bigint
 
-//2> non primitive
+//2> non primitive (reference)
 //arrays=object
 //function=function
 //object=object
 
+// *********************************************************************************************
+
+//memory where the data store
+//stack memory(primitive (copy milta hai)) and heap memory(non-primitive(reference original value ka))
+
+//stack
+let myutube = 'ayushiarora'
+let anothername= myutube
+anothername='chaiandcode'
+console.log(anothername);
+console.log(myutube);
+
+//heap
+let user = {
+    name:'ayushi',
+    no:1234
+
+}
+let user2=user
+user2.no = 7894
+console.log(user2.no);
+console.log(user.no);
