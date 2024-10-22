@@ -29,4 +29,50 @@ console.log(typeof guy_name);
 console.log(typeof bigInt);
 
 
+ //interview crack questions datatypes summary 
+
+//js is dynamically typed language because data type will automatically assigned at the time of compilation or code exeution
+
+ //primitive datatypes: 7 types:Strings,number,boolean,null,undefined,symbol,bigint
+const score =45
+const scorevalue=2.3
+
+const isloggedIn = false
+const outsidetemp=null //completely empty
+let userEmail = undefined
+
+const id =Symbol('123')
+const anotherid = Symbol('123')
+console.log(id === anotherid);
+const BigNumber = 456777777777779713566789134n
+
+ //reference type(non-primitive):arrays,objects,functions // inka datatype function hi boltai hai
+
+ const heroes = ['shaktiman','doga','nagraj']
+ let myobj={
+    name:'ayushi',
+    age:45,
+ }
+
+ const myfunction =function(){
+    console.log('hey'); //function ka datatype =object function bol tai hai
+    
+ }
+
+ console.log(typeof heroes);
  
+//return type of variables in js
+//1> primitive datatype
+//number=number
+//string=string
+//boolean=boolean
+//null=object
+//undefined=undefined
+//symbol=symbol
+//bigint=bigint
+
+//2> non primitive
+//arrays=object
+//function=function
+//object=object
+
