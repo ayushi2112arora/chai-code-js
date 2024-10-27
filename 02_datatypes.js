@@ -33,7 +33,7 @@ console.log(typeof bigInt);
 
 //js is dynamically typed language because data type will automatically assigned at the time of compilation or code exeution
 
- //primitive datatypes: 7 types:Strings,number,boolean,null,undefined,symbol,bigint
+ //primitive datatypes: 7 types:Strings,number,boolean,null,undefined,symbol,bigint => big b is the string which we considered as the undefined because there is a null value.the symbol is in the form of number.
 const score =45
 const scorevalue=2.3
 
