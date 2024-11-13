@@ -1,5 +1,3 @@
-
-
 function myname(){
 console.log('a');
 console.log('y');

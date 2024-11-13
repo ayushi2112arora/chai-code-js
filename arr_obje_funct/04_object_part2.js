@@ -50,7 +50,7 @@ users[1].email
 console.log(tinderuser);
 console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+console.log(Object.entries(tinderuser));//ENTRY BTATA TTA HAI KI ENTRY HAI YA NHI
 
 console.log(tinderuser.hasOwnProperty('isloggedin')); //available hai ya nhi
 

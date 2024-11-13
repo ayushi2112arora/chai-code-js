@@ -29,7 +29,7 @@ console.log(myn1);
 
 console.log("B",myarr);
 
-const myn2 = myarr.splice(1,3) //splice mein pura partion ho jata hai array ka toot jaata
+const myn2 = myarr.splice(1,3) //splice mein pura partition ho jata hai array ka toot jaata
 console.log("C",myarr);
 console.log(myn2);
 
